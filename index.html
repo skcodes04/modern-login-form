@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Login Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <div class="login-container">
+        <form class="login-form" id="loginForm">
+          <h2>Login</h2>
+          <p>Please login to your your account</p>
+          <div class="input-group">
+            <input type="email" aria-label="email address" autocomplete="off" required>
+            <label>Email</label>
+          </div>
+          <div class="input-group password">
+            <input type="password" aria-label="password" id="password" autocomplete="off" required>
+            <label>Password</label>
+            <span class="toggleEyePassword"><i class="fa-solid fa-eye"></i></span>
+          </div>
+
+        <button type="submit" id="loginBtn">
+          <span class="loginBtn">Login</span>
+          <span class="loader"></span>
+          <span class="success">login sucessfully ✅</span>
+        </button>
+
+        </form>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
